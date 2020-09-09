@@ -1,0 +1,33 @@
+{
+  "name": "send-mail-with-aws-ses",
+  "version": "1.0.0",
+  "description": "Serverless project to send simple e-mails using Amazon SES",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.748.0",
+    "serverless-webpack": "^5.3.4",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biellz1221/sendmail-ses.git"
+  },
+  "keywords": [
+    "AWS",
+    "SES",
+    "Email",
+    "Serverless",
+    "Lambda",
+    "Functions"
+  ],
+  "author": "Gabriel Baptista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biellz1221/sendmail-ses/issues"
+  },
+  "homepage": "https://github.com/biellz1221/sendmail-ses#readme"
+}
